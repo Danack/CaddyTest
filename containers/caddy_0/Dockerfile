@@ -1,5 +1,6 @@
 FROM caddy:latest
 
+RUN apk add curl
 
 WORKDIR /var/app
 

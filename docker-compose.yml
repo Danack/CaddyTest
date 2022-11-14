@@ -5,7 +5,7 @@ services:
     volumes:
       - .:/var/app
     ports:
-      - 8000:8000
+      - 8000:80
   caddy_1:
     build: containers/caddy_1
     volumes:

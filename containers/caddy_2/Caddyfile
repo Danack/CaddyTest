@@ -2,6 +2,6 @@
     auto_https off
 }
 
-127.0.0.1:80 {
+local.phpimagick.com:80 {
 	respond "Hello, world! This is caddy_2"
 }

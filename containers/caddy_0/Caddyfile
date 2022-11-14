@@ -1,3 +1,3 @@
-127.0.0.1 {
+local.phpimagick.com {
 	respond "Hello, world! This is caddy_0."
 }
