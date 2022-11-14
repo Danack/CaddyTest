@@ -1,0 +1,3 @@
+127.0.0.1 {
+	respond "Hello, world! This is caddy_0."
+}

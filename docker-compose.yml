@@ -1,0 +1,20 @@
+version: "3"
+services:
+  caddy_0:
+    build: containers/caddy_0
+    volumes:
+      - .:/var/app
+    ports:
+      - 8000:8000
+  caddy_1:
+    build: containers/caddy_1
+    volumes:
+      - .:/var/app
+    ports:
+      - 8001:80
+  caddy_2:
+    build: containers/caddy_2
+    volumes:
+      - .:/var/app
+    ports:
+      - 8002:80
