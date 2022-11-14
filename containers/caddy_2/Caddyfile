@@ -3,5 +3,5 @@
 }
 
 local.phpimagick.com:80 {
-	respond "Hello, world! This is caddy_2"
+	respond "Hello, world! This is caddy_2\n\n"
 }
